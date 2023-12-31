@@ -1,0 +1,28 @@
+.cards{
+   display: flex;
+   flex-wrap: wrap;
+}
+.card-4 {
+    flex: 25%;
+    padding: 0 3px;
+    
+}
+img{
+    width: 100%;
+    
+}
+@media(max-width:1031px){
+    .card-4{
+        flex:50%;
+    }
+}
+@media (max-width:991px){
+    .card-4{
+        flex:50%;
+    }
+}
+@media (max-width:391px){
+    .card-4{
+        flex:100%;
+    }
+}
